@@ -1,0 +1,677 @@
+/***Blog listagem***/
+
+.blog-listagem {
+    padding: 80px 0;
+    font-family: 'Geomanist'!important;
+}
+
+.blog_01 {
+    padding: 80px 0;
+}
+
+.blog_01-item {
+    padding-right: 50px;
+}
+
+.blog-box {
+    margin-bottom: 60px;
+    display: grid;
+    margin-right: 40px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 6px 13px 21px -6px rgba(0, 0, 0, 0.25);
+}
+
+.blog-box figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.conteudo-blog-box {
+    padding: 20px 30px 20px 20px;
+}
+
+.blog_info {
+    color: #999;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.blog_info li {
+    margin-right: 15px;
+}
+
+.blog_info li:last-child {
+    margin-right: 0;
+}
+
+.blog_info div {
+    margin-right: 15px;
+}
+
+.blog_info span {
+    margin-right: 5px;
+}
+
+.conteudo-blog-box h2 {
+    font-size: 27px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.conteudo-blog-box p {
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-height: 25px;
+    max-height: 100px;
+}
+
+.conteudo-blog-box a {
+    transition: all .35s ease;
+}
+
+.buscar form {
+    position: relative;
+}
+
+.buscar input {
+    display: block;
+    border: 2px solid #cfcfcf;
+    line-height: 50px;
+    padding: 0 50px 0 25px;
+    width: 100%;
+    font-size: 15px;
+    color: #cfcfcf;
+    transition: all .2s linear;
+    border-radius: 2px;
+    font-family: 'Geomanist';
+}
+
+.buscar input:focus {
+    border-color: #212121;
+}
+
+.buscar button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.sidebar h2 {
+    font-size: 25px;
+    color: #212121;
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+    font-family: 'Geomanist';
+}
+
+.sidebar h2:after {
+    display: block;
+    width: 45px;
+    height: 5px;
+    border-radius: 5px;
+    content: '';
+    background-color: #333333;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+
+.buscar,
+.categorias,
+.recentes-posts,
+.tags {
+    margin-bottom: 50px;
+}
+
+.posts_recentes {
+    margin-bottom: 30px;
+    border: 1px solid #f2f2f2;
+    background: #fbfcfd;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.posts_recentes figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.posts_recentes p {
+    font-size: 16px;
+}
+
+.posts_recentes p span {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+
+.posts_recentes h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #212121;
+    font-family: 'Geomanist';
+}
+
+.categorias ul li {
+    line-height: 25px;
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Geomanist';
+    transition: all.2s linear;
+}
+
+.categorias ul li:hover {
+    color: #212121;
+}
+
+.conteudo-blog-box>a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #212121;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: all .3s linear;
+}
+
+.conteudo-blog-box>a:hover {
+    background: #333333;
+    color: #fff;
+}
+
+.cta-blog {
+    padding: 70px 30px 50px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+    background: #fbfcfd;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cta-blog h3 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 37px;
+    color: #26282d;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'Geomanist';
+}
+
+.cta-blog h3:before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    background-color: #212121;
+    margin: 0 auto 30px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+}
+
+.cta-blog h3 span {
+    display: inline-block;
+    font-weight: 600;
+    color: #212121;
+}
+
+.cta-blog p {
+    font-size: 16px;
+    color: #26282d;
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 1em;
+    font-family: 'Geomanist';
+}
+
+.cta-blog form input {
+    border: 1px solid #e4e8ed;
+    background: #fbfcfd;
+    font-size: 15px;
+    color: #707378;
+    padding: 0 10px 0 20px;
+    width: 100%;
+    border-radius: 2px;
+    line-height: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.cta-blog form button {
+    width: auto;
+    border: 1px solid #212121;
+    background-color: #212121;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5em;
+    font-weight: 700;
+    letter-spacing: .126em;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 0 10px;
+    height: 50px;
+    max-width: 110px;
+    transition: all .2s linear;
+}
+
+.cta-blog form button:hover {
+    border-color: #333333;
+    background-color: #333333;
+}
+
+.cta-blog form {
+    display: flex;
+}
+
+
+/***** Pagination *****/
+
+.pagination-sec {
+    padding: 10px 0 50px;
+}
+
+.pagination {
+    justify-content: center;
+    transition: all .2s linear;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    line-height: 120%;
+    background-color: #fff;
+    border: 1.5px solid #212121;
+    margin: 2px;
+    font-weight: 600;
+    color: #212121;
+    font-size: 18px;
+    transition: all .2s linear;
+    border-radius: 4px;
+}
+
+.page-link:hover,
+.page-item.active .page-link {
+    color: #fff;
+    background-color: #212121;
+    border-color: #212121;
+}
+
+.page-item.disabled .page-link {
+    color: #555;
+    border-color: #555;
+}
+
+
+/***** Pagination *****/
+
+.breadcrumbs-blog {
+    display: flex;
+    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.breadcrumbs-blog p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.breadcrumbs-blog h1 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 300;
+}
+
+
+/***Blog Interno***/
+
+.blog_interna-item {
+    padding-right: 0px;
+}
+
+.blog_interna-item figure img {
+    display: block;
+    width: 100%;
+    max-height: 580px;
+    margin-bottom: 20px;
+}
+
+.blog_interna-item p {
+    font-size: 18px;
+    color: #26282d;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 1.66em;
+    font-family: geomanist;
+}
+
+.blog_interna-item h2,
+.blog_interna-item h3,
+.blog_interna-item h4,
+.blog_interna-item h5,
+.blog_interna-item h6 {
+    font-weight: 600;
+    color: #212121;
+    line-height: 30px;
+    font-size: 24px;
+    margin: 20px 0;
+    font-family: geomanist;
+}
+
+.blog_interna-item h2 {
+    font-size: 25px!important;
+}
+
+.blog_interna-item h3 {
+    font-size: 20px;
+}
+
+.blog_interna-item h4 {
+    font-size: 17px;
+}
+
+.blog_interna-item ul,
+.blog_interna-item ol {
+    padding-left: 15px;
+    margin: 15px 0;
+}
+
+.blog_interna-item ul li,
+.blog_interna-item ol li {
+    font-size: 18px;
+    color: #26282d;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-family: geomanist;
+}
+
+.blog_interna-item figure figcaption p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #7a7a7a;
+    font-family: geomanist;
+}
+
+.blog_interna-item figure figcaption p span {
+    display: inline-block;
+    font-weight: 400;
+    font-family: geomanist;
+}
+
+.posts-relacionados {
+    padding: 60px 0;
+}
+
+.posts-relacionados .titulo_1 {
+    margin-bottom: 60px;
+    font-family: geomanist;
+}
+
+.blog_interna-item figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.blog_interna-item h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.blog_interna-item h3 span {
+    display: inline-block;
+    font-weight: 200;
+}
+
+.blog_interna-item h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.blog_interna-item .new-btn {
+    margin-top: 20px;
+}
+
+.blog_interna-item div img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/***Posts relacionados***/
+
+.posts-relacionados {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+}
+
+.posts-relacionados .blog-box {
+    margin-right: 0px;
+    grid-template-columns: 1fr;
+    row-gap: 0px;
+}
+
+.posts-relacionados .container>h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #212121;
+    margin-bottom: 40px;
+}
+
+.wq-descricao,
+.wq-indicie {
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #26282d40;
+    margin-bottom: 20px;
+}
+
+.wq-descricao p {
+    margin-bottom: 10px;
+}
+
+.wq-descricao p:last-child {
+    margin-bottom: 0;
+}
+
+.wq-indicie ul>li::before {
+    background-image: none;
+    background-color: #461d7c;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    top: 11px;
+}
+
+.wq-indicie>span {
+    font-size: 16px;
+    color: #26282d;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 1.66em;
+    font-family: geomanist;
+}
+
+.wq-sec-compartilhe {
+    padding: 30px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #e2e2e2;
+    margin-top: 30px;
+}
+
+.wq-sec-compartilhe h3 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: .05em;
+    color: #2e3440;
+    margin: 0 25px 0;
+}
+
+.wq-sec-compartilhe ul {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.wq-redes-sociais li {
+    margin-right: 15px;
+    padding-left: 0!important;
+}
+
+.wq-sec-compartilhe ul li a {
+    width: 45px;
+    height: 45px;
+    text-decoration: none;
+}
+
+.wq-redes-sociais {
+    margin-top: 0;
+}
+
+.wq-redes-sociais li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #452573;
+    color: #fff;
+    font-weight: 500;
+    font-size: 19px;
+    transition: all .2s linear;
+}
+
+ul.wq-redes-sociais>li::before {
+    display: none;
+}
+
+.wq-redes-sociais li a:hover {
+    background-color: #5a5a5a;
+}
+
+#indice-wrapper {
+    padding-left: 0;
+}
+
+#indice-wrapper li a {
+    font-size: 18px;
+    color: #26282d;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 1.66em;
+    font-family: geomanist;
+}
+
+#indice-wrapper li {
+    margin-bottom: 5px;
+    padding-left: 15px;
+    position: relative;
+}
+
+#indice-wrapper li::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #333;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+
+.wq-indice span {
+    font-size: 18px;
+    color: #212121;
+    font-weight: 700;
+    margin-bottom: 45px;
+    position: relative;
+    font-family: 'Geomanist';
+}
+
+.blog-box figure,
+.blog-box figure img {
+    height: 100%;
+}
+
+
+/***** Mobiles  *****/
+
+@media screen and (max-width: 999px) {
+    .blog-box {
+        margin-right: 0px;
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+    .blog_interna-item {
+        padding-right: 0px;
+    }
+}
+
+
+/***** Monitores pequenos  *****/
+
+@media screen and (max-width: 1199px) and (min-width: 999px) {
+    .blog-box {
+        margin-right: 20px;
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+}
