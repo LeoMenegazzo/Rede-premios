@@ -107,7 +107,8 @@ p {
     color: #fff;
     padding: 12px 25px;
     border-radius: 30px;
-    border: 2px solid #fff;
+    background: #9518a2;
+    border: 2px solid #9518a2;
     transition: all .35s ease;
 }
 
@@ -1065,4 +1066,133 @@ footer p {
 
 .wq-carousel-item .wq-btn {
     font-size: 18px;
+}
+
+footer {
+    background-color: #000101;
+    padding: 60px 0;
+}
+
+footer .wq-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 50px;
+}
+
+.wq-list-contato li {
+    margin-bottom: 25px;
+}
+
+.wq-list-contato li:last-child {
+    margin-bottom: 0px;
+}
+
+.wq-list-contato li a>span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    color: #005102;
+    height: 50px;
+    width: 50px;
+    background: #ffffff;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+}
+
+.wq-list-contato li a {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.wq-list-contato li a small,
+.wq-list-contato li a p {
+    color: #ffffff;
+    opacity: 0.7;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.wq-list-contato li a p {
+    opacity: 1;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+footer h2 {
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 36px;
+    text-align: center;
+}
+
+footer .wq-midias-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+footer .wq-midias-sociais li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    color: #005102;
+    height: 50px;
+    width: 50px;
+    background: #ffffff;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    margin: 8px;
+    transition: all .2s linear;
+}
+
+footer .wq-midias-sociais li a:hover {
+    background-color: #005102;
+    color: #fff;
+}
+
+footer h3 {
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.modal-dialog {
+    max-width: 900px;
+}
+
+.modal-dialog p {
+    font-size: 17px;
+}
+
+.modal-title {
+    font-size: 30px;
+    color: #005102;
+    font-weight: 700;
+}
+
+.wq-btns-02 li {
+    margin-bottom: 10px;
+}
+
+.wq-btns-02 li a {
+    color: #ffffff;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.wq-mid-box {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
