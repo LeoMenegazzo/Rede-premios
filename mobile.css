@@ -1,0 +1,125 @@
+/****Responsivo da página****/
+
+@media screen and (max-width: 992px) {
+    .logo img {
+        height: 30px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .nav-item {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .wq-header .navbar-collapse .navbar-nav li {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .wq-btn {
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    .wq-carousel-item .wq-btn {
+        font-size: 14px;
+    }
+    .wq-banner-mobile {
+        display: block!important;
+    }
+    .wq-banner-desktop {
+        display: none!important;
+    }
+}
+
+
+/***** Tamanho para smartphones na vertical *****/
+
+@media screen and (max-width: 576px) {
+    footer .wq-wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    footer h2 {
+        text-align: left;
+    }
+    footer .wq-midias-sociais {
+        justify-content: flex-start;
+    }
+    .wq-mid-box {
+        border: none;
+    }
+}
+
+
+/***** Tamanho para smartphones na horizontal *****/
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    footer .wq-wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    footer h2 {
+        text-align: left;
+    }
+    footer .wq-midias-sociais {
+        justify-content: flex-start;
+    }
+    .wq-mid-box {
+        border: none;
+    }
+}
+
+
+/***** Tamanho para tablets na vertical *****/
+
+@media screen and (max-width: 1099px) and (min-width: 769px) {
+    footer .wq-wrapper {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+    footer h2 {
+        text-align: left;
+    }
+    footer .wq-midias-sociais {
+        justify-content: flex-start;
+    }
+    .wq-mid-box {
+        border: none;
+    }
+}
+
+
+/***** Tamanho para tablets na horizontal *****/
+
+@media screen and (max-width: 1200px) and (min-width: 1100px) {}
+
+
+/***** Monitores pequenos  *****/
+
+@media screen and (max-width: 1299px) and (min-width: 992px) {}
+
+
+/***** Monitores medios  *****/
+
+@media screen and (max-width: 1499px) and (min-width: 1300px) {}
+
+
+/***** Monitores extra grandes  *****/
+
+@media screen and (max-width: 1699px) and (min-width: 1500px) {}
+
+
+/***** Monitores extra grandes  *****/
+
+@media screen and (max-width: 2500px) and (min-width: 1920px) {}
+
+@media screen and (max-width: 3000px) and (min-width: 2500px) {}
+
+
+/****Responsivo da página****/
