@@ -1028,7 +1028,6 @@ footer p {
 
 .wq-carousel-item {
     display: block;
-    margin: 10px;
     padding: 30px;
     background-color: #005102;
     border-radius: 30px;
@@ -1234,4 +1233,8 @@ footer h3 {
     width: auto;
     margin-bottom: 15px;
     border-radius: 6px;
+}
+
+.wq-plano-carousel.row {
+    justify-content: center;
 }
